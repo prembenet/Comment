@@ -1,0 +1,44 @@
+p{
+    font-size: xx-large;
+}
+h1{
+    display: initial;
+}
+.comment{
+    font-size: xx-large;
+    margin: 2rem;
+    text-align: center;
+}
+.ID{
+    float: left;
+}
+.time{
+    float: right;
+}
+textarea{
+    font-size: large;
+}
+button{
+    float: right;
+}
+input[type="submit"]{
+    margin-left: 54.5rem;
+    margin-top: 1rem;
+    margin-bottom: .8rem;
+}
+button,input[type="submit"]{
+    font-size: xx-large;
+    color: white;
+    background: black;
+    cursor: pointer;
+    padding: .3rem 2rem;
+    margin-right: 1rem;
+    border-radius: .4rem;
+    outline: none;
+    border: none;
+    box-shadow: .1rem .1rem 1rem .1rem silver;
+}
+button:hover,input[type="submit"]:hover{
+    background: transparent;
+    color: black;
+}

@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+}
+form,fieldset{
+    text-align: center;
+}
+label,input{
+    margin: 1rem;
+}
+label,legend{
+    font-size: xx-large;
+}
+fieldset,input{
+    border: none;
+    outline: none;
+    box-shadow: .1rem .1rem 1rem .1rem silver;
+}
+fieldset{
+    margin-top: 15%;
+    display: initial;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+input{
+    padding: .3rem 1rem;
+    border-radius: .3rem;
+    font-size: x-large;
+}
+input[type="submit"]{
+    color: white;
+    background: black;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
